@@ -8,6 +8,7 @@ public class Patient {
 	private String name;
 	private int id;
 	private Date dateOfBirth;
+  //TODO: add attribute 'birth name'
 
 	public String getName() {
 		return name;
