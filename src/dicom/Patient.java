@@ -25,6 +25,14 @@ public class Patient {
 		this.id = id;
 	}
 
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(Date dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
 	public int getAge() {
 		Calendar dob = new GregorianCalendar();
 		dob.setTime(dateOfBirth);
