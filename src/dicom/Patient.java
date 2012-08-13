@@ -5,12 +5,16 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Patient {
-	private String name;
+  private String name;
 	private int id;
 	private Date dateOfBirth;
   //TODO: add attribute 'birth name'
 
-	public String getName() {
+	/**
+   * Name includes first and last name
+   * must follow HL7 specification
+   */
+   public String getName() {
 		return name;
 	}
 
